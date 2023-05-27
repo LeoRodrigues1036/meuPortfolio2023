@@ -262,6 +262,13 @@ footer p{
     display: flex;
     flex-direction: row;
 }
+.borda{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+    width: 50%;
+}
 
 @media (min-width: 1000px){
     header{
@@ -331,6 +338,10 @@ footer p{
 
     .home{
         flex-direction: row;
+    }
+
+    #formulario{
+        width: 50%;
     }
 
 }
